@@ -1,0 +1,39 @@
+html,body{
+    height:100%;
+}
+
+.welcome-panel{
+    height:70vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.dropzone{
+    background: white;
+    border-radius: 5px;
+    border: 2px dashed rgb(0, 135, 247);
+    border-image:none ;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.error{
+    color: rgb(207, 22, 22);
+}
+.ui-state-default
+{
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.ui-state-default .btn-danger
+{
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+.card-one ul li a
+{
+   color: #fff;
+}
